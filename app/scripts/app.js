@@ -36,6 +36,11 @@ angular
       controller: 'AmnestyCtrl',
       controllerAs: 'amnesty'
    })
+   .when('/acts', {
+      templateUrl: 'scripts/modules/acts/acts.html',
+      controller: 'ActsCtrl',
+      controllerAs: 'acts'
+   })
    .when('/maps', {
       templateUrl: 'scripts/modules/maps/maps.html',
       controller: 'MapsCtrl',
@@ -55,6 +60,11 @@ angular
       templateUrl: 'scripts/modules/witnesses/witnesses.html',
       controller: 'WitnessesCtrl',
       controllerAs: 'witnesses'
+   })
+   .when('/help', {
+      templateUrl: 'scripts/modules/help/help.html',
+      controller: 'HelpCtrl',
+      controllerAs: 'help'
    })
    .otherwise({
       redirectTo: '/'
