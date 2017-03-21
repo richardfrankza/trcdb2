@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name trcdb2App.controller:MainCtrl
+ * @name trcdbApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the trcdb2App
+ * Controller of the trcdbApp
  */
-angular.module('trcdb2App')
+angular.module('trcdbApp')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

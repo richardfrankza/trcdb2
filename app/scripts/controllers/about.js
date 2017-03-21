@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name trcdb2App.controller:AboutCtrl
+ * @name trcdbApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the trcdb2App
+ * Controller of the trcdbApp
  */
-angular.module('trcdb2App')
+angular.module('trcdbApp')
   .controller('AboutCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

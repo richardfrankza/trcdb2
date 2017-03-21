@@ -2,14 +2,14 @@
 
 /**
 * @ngdoc overview
-* @name trcdb2App
+* @name trcdbApp
 * @description
-* # trcdb2App
+* # trcdbApp
 *
 * Main module of the application.
 */
 angular
-.module('trcdb2App', [
+.module('trcdbApp', [
    'ngAnimate',
    'ngAria',
    'ngCookies',
