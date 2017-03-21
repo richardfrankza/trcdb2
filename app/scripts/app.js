@@ -22,14 +22,14 @@ angular
    $locationProvider.hashPrefix(''); // AngularJS 1.6 set hash prefix of '!' by default, so remove it.
    $routeProvider
    .when('/', {
-      templateUrl: 'views/main.html',
+      templateUrl: 'scripts/modules/main/main.html',
       controller: 'MainCtrl',
       controllerAs: 'main'
    })
-   .when('/about', {
-      templateUrl: 'views/about.html',
-      controller: 'AboutCtrl',
-      controllerAs: 'about'
+   .when('/faq', {
+      templateUrl: 'scripts/modules/faq/faq.html',
+      controller: 'FaqCtrl',
+      controllerAs: 'faq'
    })
    .otherwise({
       redirectTo: '/'
