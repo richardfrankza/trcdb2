@@ -2,12 +2,12 @@
 
 /**
 * @ngdoc function
-* @name trcdbApp.controller:FaqCtrl
+* @name trcdbApp.controller:HelpCtrl
 * @description
-* # FaqCtrl
+* # HelpCtrl
 * Controller of the trcdbApp
 */
 angular.module('trcdbApp')
-.controller('FaqCtrl', function () {
+.controller('HelpCtrl', function () {
    /* Placeholder */
 });
