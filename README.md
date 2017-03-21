@@ -1,4 +1,4 @@
-# trcdb2
+# trcdb
 
 This project was generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.16.0.
@@ -6,9 +6,9 @@ version 0.16.0.
 ## Installation
 Create the project by cloning it from GitHub, installing the dependencies with `npm` and `bower`, then previewing it with `grunt serve`:
 
-`git clone https://github.com/GeraldScott/trcdb2.git`
+`git clone https://github.com/GeraldScott/trcdb.git`
 
-`cd trcdb2`
+`cd trcdb`
 
 `npm install`
 

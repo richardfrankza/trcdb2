@@ -1,5 +1,5 @@
 {
-  "name": "trcdb2",
+  "name": "trcdb",
   "version": "0.0.0",
   "dependencies": {
     "angular": "^1.4.0",
@@ -16,7 +16,7 @@
     "angular-mocks": "^1.4.0"
   },
   "appPath": "app",
-  "moduleName": "trcdb2App",
+  "moduleName": "trcdbApp",
   "overrides": {
     "bootstrap": {
       "main": [

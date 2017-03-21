@@ -1,5 +1,5 @@
 {
-  "name": "trcdb2",
+  "name": "trcdb",
   "private": true,
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
