@@ -26,10 +26,35 @@ angular
       controller: 'MainCtrl',
       controllerAs: 'main'
    })
-   .when('/help', {
-      templateUrl: 'scripts/modules/help/help.html',
-      controller: 'HelpCtrl',
-      controllerAs: 'help'
+   .when('/statements', {
+      templateUrl: 'scripts/modules/statements/statements.html',
+      controller: 'StatementsCtrl',
+      controllerAs: 'statements'
+   })
+   .when('/amnesty', {
+      templateUrl: 'scripts/modules/amnesty/amnesty.html',
+      controller: 'AmnestyCtrl',
+      controllerAs: 'amnesty'
+   })
+   .when('/maps', {
+      templateUrl: 'scripts/modules/maps/maps.html',
+      controller: 'MapsCtrl',
+      controllerAs: 'maps'
+   })
+   .when('/victims', {
+      templateUrl: 'scripts/modules/victims/victims.html',
+      controller: 'VictimsCtrl',
+      controllerAs: 'victims'
+   })
+   .when('/perpetrators', {
+      templateUrl: 'scripts/modules/perpetrators/perpetrators.html',
+      controller: 'PerpetratorsCtrl',
+      controllerAs: 'perpetrators'
+   })
+   .when('/witnesses', {
+      templateUrl: 'scripts/modules/witnesses/witnesses.html',
+      controller: 'WitnessesCtrl',
+      controllerAs: 'witnesses'
    })
    .otherwise({
       redirectTo: '/'
