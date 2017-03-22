@@ -224,6 +224,7 @@ th.column-width-17 {
 th.column-width-20 {
    width: 20%;
 }
+/* Align button with the bottom of a row. */
 .grid-heading-row {
     position: relative;
 }
