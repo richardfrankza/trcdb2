@@ -68,56 +68,75 @@ body {
 }
 /* Include icons from the IcoMoon font set */
 @font-face {
-   font-family: 'icomoon';
-   src:  url('fonts/icomoon.eot?rmjf0n');
-   src:
-   url('fonts/icomoon.eot?rmjf0n#iefix') format('embedded-opentype'),
-   url('fonts/icomoon.ttf?rmjf0n') format('truetype'),
-   url('fonts/icomoon.woff?rmjf0n') format('woff'),
-   url('fonts/icomoon.svg?rmjf0n#icomoon') format('svg');
-   font-weight: normal;
-   font-style: normal;
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?yjv7wg');
+  src:  url('fonts/icomoon.eot?yjv7wg#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?yjv7wg') format('truetype'),
+    url('fonts/icomoon.woff?yjv7wg') format('woff'),
+    url('fonts/icomoon.svg?yjv7wg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-   /* Use !important to override browser extensions that change fonts */
-   font-family: 'icomoon' !important;
-   speak: none;
-   font-style: normal;
-   font-weight: normal;
-   font-variant: normal;
-   text-transform: none;
-   line-height: 1;
-   /* Better Font Rendering depeneding on the browser engine */
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
 .icon-home3:before {
-   content: "\e902";
+  content: "\e902";
 }
 .icon-headphones:before {
-   content: "\e910";
-}
-.icon-books:before {
-   content: "\e920";
+  content: "\e910";
 }
 .icon-library:before {
-   content: "\e921";
+  content: "\e921";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-drawer:before {
+  content: "\e95c";
 }
 .icon-users:before {
-   content: "\e972";
+  content: "\e972";
+}
+.icon-user-tie:before {
+  content: "\e976";
+}
+.icon-search:before {
+  content: "\e986";
 }
 .icon-wrench:before {
-   content: "\e991";
+  content: "\e991";
+}
+.icon-aid-kit:before {
+  content: "\e998";
+}
+.icon-bug:before {
+  content: "\e999";
 }
 .icon-stats-dots:before {
-   content: "\e99b";
+  content: "\e99b";
 }
-.icon-stats-bars2:before {
-   content: "\e99d";
+.icon-eye:before {
+  content: "\e9ce";
+}
+.icon-question:before {
+  content: "\ea09";
 }
 .icon-github:before {
-   content: "\eab0";
+  content: "\eab0";
 }
 /* Define various colours */
 .color-white {
