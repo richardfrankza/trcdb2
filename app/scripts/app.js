@@ -61,10 +61,20 @@ angular
       controller: 'WitnessesCtrl',
       controllerAs: 'witnesses'
    })
-   .when('/help', {
-      templateUrl: 'scripts/modules/help/help.html',
-      controller: 'HelpCtrl',
-      controllerAs: 'help'
+   .when('/history', {
+      templateUrl: 'scripts/modules/history/history.html',
+      controller: 'HistoryCtrl',
+      controllerAs: 'history'
+   })
+   .when('/howto', {
+      templateUrl: 'scripts/modules/howto/howto.html',
+      controller: 'HowtoCtrl',
+      controllerAs: 'howto'
+   })
+   .when('/glossary', {
+      templateUrl: 'scripts/modules/glossary/glossary.html',
+      controller: 'GlossaryCtrl',
+      controllerAs: 'glossary'
    })
    .otherwise({
       redirectTo: '/'
