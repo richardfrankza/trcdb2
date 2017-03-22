@@ -8,6 +8,6 @@
 * Controller of the trcdbApp
 */
 angular.module('trcdbApp')
-.controller('AmnestyCtrl', function () {
-   /* Placeholder */
-});
+.controller('AmnestyCtrl', ['$scope', '$filter', 'AmnestyApplications', function($scope, $filter, AmnestyApplications) {
+  $scope.rows = AmnestyApplications.query();
+}]);

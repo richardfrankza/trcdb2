@@ -16,7 +16,8 @@ angular
    'ngMessages',
    'ngResource',
    'ngRoute',
-   'ngSanitize'
+   'ngSanitize',
+   'amnestyService'
 ])
 .config(function ($routeProvider, $locationProvider) {
    $locationProvider.hashPrefix(''); // AngularJS 1.6 set hash prefix of '!' by default, so remove it.

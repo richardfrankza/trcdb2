@@ -1,3 +1,20 @@
-<div class="row">
-   <h3>Amnesty page</h3>
-</div>
+<h3>Amnesty page</h3>
+<table id="myAmnestyTable">
+   <thead>
+      <tr>
+         <th>Reference No.</th>
+         <th>Last name</th>
+         <th>First names</th>
+         <th>Date</th>
+         <th>Comments</th>
+      </tr>
+   <tbody>
+      <tr ng-repeat="row in rows">
+         <td>{{row.reference_no}}</td>
+         <td>{{row.last_name}}</td>
+         <td>{{row.first_names}}</td>
+         <td>{{row.date_of_document}}</td>
+         <td>{{row.summary}}</td>
+      </tr>
+   </tbody>
+</table>
