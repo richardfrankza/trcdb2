@@ -224,3 +224,11 @@ th.column-width-17 {
 th.column-width-20 {
    width: 20%;
 }
+.grid-heading-row {
+    position: relative;
+}
+.button-bottom {
+    position: absolute;
+    bottom:0;
+    right:0;
+}
