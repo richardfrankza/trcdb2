@@ -61,10 +61,40 @@ Note: this is where the width of the container is defined. */
 
 /* Application specific CSS starts here */
 
-/* */
+/* Define various colours */
+.color-white {
+   color: #ffffff; /* white */
+}
+.color-deep-red {
+   color: #861419; /* deep red */
+}
+.color-olive {
+   color: #928f66; /* olive */
+}
+.bg-white {
+   background-color: #ffffff; /* white */
+}
+.bg-deep-red {
+   background-color: #861419; /* deep red */
+}
+.bg-warm-red {
+   background-color: #a80d17; /* warm red */
+}
+.bg-olive {
+   background-color: #928f66; /* olive */
+}
+.bg-cream {
+   background-color: #e3e0d4; /* cream */
+}
+/* Set the fonts */
 body {
    font-family: 'Open Sans', Verdana, sans-serif;
    font-size: 13px;
+}
+/* Color the h2 headings */
+h2 {
+   color: #861419; /* deep-red */
+   font-weight: bold;
 }
 /* Include icons from the IcoMoon font set */
 @font-face {
@@ -137,31 +167,6 @@ body {
 }
 .icon-github:before {
   content: "\eab0";
-}
-/* Define various colours */
-.color-white {
-   color: #ffffff; /* white */
-}
-.color-deep-red {
-   color: #861419; /* deep red */
-}
-.color-olive {
-   color: #928f66; /* olive */
-}
-.bg-white {
-   background-color: #ffffff; /* white */
-}
-.bg-deep-red {
-   background-color: #861419; /* deep red */
-}
-.bg-warm-red {
-   background-color: #a80d17; /* warm red */
-}
-.bg-olive {
-   background-color: #928f66; /* olive */
-}
-.bg-cream {
-   background-color: #e3e0d4; /* cream */
 }
 /* Class to centre the text within the column */
 .center-text {
