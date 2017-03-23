@@ -34,20 +34,21 @@
          <th><input st-search="date_of_document" placeholder="date" class="input-sm form-control" type="search" data-toggle="tooltip" title="Search for a document date" data-placement="right" data-container="body"/></th>
          <th><input st-search="summary" placeholder="search phrase" class="input-sm form-control" type="search" data-toggle="tooltip" title="Search for a word or a phrase in the comments" data-placement="right" data-container="body"/></th>
       </tr>
-      <tbody>
-         <tr ng-repeat="row in displayedCollection">
-            <td>{{row.reference_no}}</td>
-            <td>{{row.last_name}}</td>
-            <td>{{row.first_names}}</td>
-            <td>{{row.date_of_document}}</td>
-            <td>{{row.summary}}</td>
-         </tr>
-      </tbody>
-      <tfoot>
-         <tr>
-            <td colspan="5" class="text-center">
-               <div st-pagination="" st-items-by-page="itemsByPage" st-displayed-pages="27"></div>
-            </td>
-         </tr>
-      </tfoot>
-   </table>
+   </thead>
+   <tbody>
+      <tr ng-repeat="row in displayedCollection">
+         <td>{{row.reference_no}}</td>
+         <td>{{row.last_name}}</td>
+         <td>{{row.first_names}}</td>
+         <td>{{row.date_of_document}}</td>
+         <td>{{row.summary}}</td>
+      </tr>
+   </tbody>
+   <tfoot>
+      <tr>
+         <td colspan="5" class="text-center">
+            <div st-pagination="" st-items-by-page="itemsByPage" st-displayed-pages="27"></div>
+         </td>
+      </tr>
+   </tfoot>
+</table>
