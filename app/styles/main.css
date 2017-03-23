@@ -201,9 +201,28 @@ body {
 .tooltip.bottom .tooltip-inner {
    background-color:#5ea1ba,
 }
-/* Format the width of ui-grid. */
-.grid {
-  width: 940px;
+/* Format the width of grid columns. */
+table {
+   table-layout: fixed;
+   word-wrap: break-word;
+}
+th.column-width-10 {
+   width: 10%;
+}
+th.column-width-12 {
+   width: 12%;
+}
+th.column-width-13 {
+   width: 13%;
+}
+th.column-width-15 {
+   width: 15%;
+}
+th.column-width-17 {
+   width: 17%;
+}
+th.column-width-20 {
+   width: 20%;
 }
 /* Align button with the bottom of a row. */
 .grid-heading-row {
