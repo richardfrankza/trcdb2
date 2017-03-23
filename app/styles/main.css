@@ -203,8 +203,7 @@ body {
 }
 /* Format the width of ui-grid. */
 .grid {
-  width: 780px;
-  height: 250px;
+  width: 940px;
 }
 /* Align button with the bottom of a row. */
 .grid-heading-row {
