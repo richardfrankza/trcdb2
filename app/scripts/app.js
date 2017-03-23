@@ -18,6 +18,7 @@ angular
    'ngRoute',
    'ngSanitize',
    'ui.grid',
+   'smart-table',
    'amnestyService'
 ])
 .config(function ($routeProvider, $locationProvider) {
