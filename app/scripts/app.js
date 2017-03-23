@@ -19,7 +19,8 @@ angular
    'ngSanitize',
    'ui.grid',
    'smart-table',
-   'amnestyService'
+   'amnestyService',
+   'statementsService'
 ])
 .config(function ($routeProvider, $locationProvider) {
    $locationProvider.hashPrefix(''); // AngularJS 1.6 set hash prefix of '!' by default, so remove it.

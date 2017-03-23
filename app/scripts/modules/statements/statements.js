@@ -8,6 +8,6 @@
 * Controller of the trcdbApp
 */
 angular.module('trcdbApp')
-.controller('StatementsCtrl', function () {
-   /* Placeholder */
-});
+.controller('StatementsCtrl', ['$scope', '$filter', 'ViolationStatements', function($scope, $filter, ViolationStatements) {
+   $scope.rowCollection = ViolationStatements.query();
+}]);
