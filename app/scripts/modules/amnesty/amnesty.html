@@ -1,7 +1,46 @@
 <div class="row grid-heading-row">
-  <div class="col-md-8"><h2>Amnesty applications</h2></div>
+   <div class="col-md-8"><h2>Amnesty applications</h2></div>
+   <div class="col-md-3"></div>
+   <div class="col-md-1 button-bottom" data-toggle="tooltip" title="Export as spreadsheet in CSV format" data-placement="top" data-container="body">
+      <!-- Button with dropdown menu to select export format-->
+      <button class="btn btn-default btn-block dropdown-toggle" data-toggle="dropdown">
+         <span class="glyphicon glyphicon-export"></span></a>
+      </button>
+      <!-- Dropdown menu for the button -->
+      <ul class="dropdown-menu table-export">
+         <li><a href="">Export spreadsheet (CSV)</a></li>
+         <!--      <li><a href="">PDF</a></li>
+         <li><a href="">Spreadsheet</a></li>
+         <li><a href="">SQL</a></li>
+         <li><a href="">JSON</a></li>
+         <li><a href="">XML</a></li>-->
+      </ul>
+   </div>
 </div>
 
-<div>
-  <div id="myGrid" ui-grid="gridOptions" class="grid"></div>
-</div>
+<table class="table table-striped table-bordered" st-table="displayedCollection" st-safe-src="rowCollection">
+   <thead>
+      <tr>
+         <th class="column-width-13" st-sort="reference_no" data-toggle="tooltip" title="Click here to sort by reference number" data-placement="right" data-container="body">Reference</th>
+         <th class="column-width-12" st-sort="last_name" data-toggle="tooltip" title="Click here to sort by last name" data-placement="right" data-container="body">Last name</th>
+         <th class="column-width-12" st-sort="first_names" data-toggle="tooltip" title="Click here to sort by first name" data-placement="right" data-container="body">First names</th>
+         <th class="column-width-10" st-sort="date_of_document" data-toggle="tooltip" title="Click here to sort by document date" data-placement="right" data-container="body">Date</th>
+         <th>Comments</th>
+      </tr>
+      <tr>
+         <th><input st-search="reference_no" placeholder="reference" class="input-sm form-control" type="search" data-toggle="tooltip" title="Search for a document reference number" data-placement="right" data-container="body"/></th>
+         <th><input st-search="last_name" placeholder="last name" class="input-sm form-control" type="search" data-toggle="tooltip" title="Search for a last name" data-placement="right" data-container="body"/></th>
+         <th><input st-search="first_names" placeholder="first names" class="input-sm form-control" type="search" data-toggle="tooltip" title="Search for a first name" data-placement="right" data-container="body"/></th>
+         <th><input st-search="date_of_document" placeholder="date" class="input-sm form-control" type="search" data-toggle="tooltip" title="Search for a document date" data-placement="right" data-container="body"/></th>
+         <th><input st-search="comments" placeholder="search phrase" class="input-sm form-control" type="search" data-toggle="tooltip" title="Search for a word or a phrase in the comments" data-placement="right" data-container="body"/></th>
+      </tr>
+      <tbody>
+         <tr ng-repeat="row in displayedCollection">
+            <td>{{row.reference_no}}</td>
+            <td>{{row.last_name}}</td>
+            <td>{{row.first_names}}</td>
+            <td>{{row.date_of_document}}</td>
+            <td>{{row.summary}}</td>
+         </tr>
+      </tbody>
+   </table>

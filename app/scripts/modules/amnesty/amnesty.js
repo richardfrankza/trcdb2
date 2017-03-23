@@ -9,13 +9,5 @@
 */
 angular.module('trcdbApp')
 .controller('AmnestyCtrl', ['$scope', '$filter', 'AmnestyApplications', function($scope, $filter, AmnestyApplications) {
-   $scope.rows = AmnestyApplications.query();
-   $scope.gridOptions = {
-      data: 'rows',
-      columnDefs: [
-         { name: 'reference_no', width: '20%' },
-         { name: 'first_names', width: '15%' },
-         { name: 'last_name', width: '13%'}
-      ],
-   };
+   $scope.rowCollection = AmnestyApplications.query();
 }]);
