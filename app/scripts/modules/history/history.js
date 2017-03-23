@@ -2,12 +2,12 @@
 
 /**
 * @ngdoc function
-* @name trcdbApp.controller:HelpCtrl
+* @name trcdbApp.controller:HistoryCtrl
 * @description
-* # HelpCtrl
+* # HistoryCtrl
 * Controller of the trcdbApp
 */
 angular.module('trcdbApp')
-.controller('HelpCtrl', function () {
+.controller('HistoryCtrl', function () {
    /* Placeholder */
 });
