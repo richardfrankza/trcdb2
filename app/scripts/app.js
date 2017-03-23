@@ -17,6 +17,7 @@ angular
    'ngResource',
    'ngRoute',
    'ngSanitize',
+   'ui.grid',
    'amnestyService'
 ])
 .config(function ($routeProvider, $locationProvider) {
